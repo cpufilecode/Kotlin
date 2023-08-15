@@ -6,6 +6,7 @@ fun main() {
 
     add(name)
     add(name, email)
+    add("돌리","doly@example.com")
     defaultArgs()
     defaultArgs(200)
 }
