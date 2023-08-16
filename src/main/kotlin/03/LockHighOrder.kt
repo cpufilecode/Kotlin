@@ -7,7 +7,7 @@ var sharable = 1
 fun main() {
     val reLock = ReentrantLock()
     lock(reLock, { criticalFunc( ) })
-    lock(reLock) { criticalFunc( ) })
+    lock(reLock) { criticalFunc( ) }
     lock(reLock, ::criticalFunc)
 
     println(sharable)
