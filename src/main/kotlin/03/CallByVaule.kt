@@ -1,7 +1,8 @@
 package `03`
 
 fun main() {
-
+    val result = callByValue(lambda())
+    println(result)
 }
 
 fun callByValue(b: Boolean): Boolean {
