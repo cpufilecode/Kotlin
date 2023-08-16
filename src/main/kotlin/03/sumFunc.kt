@@ -1,9 +1,10 @@
 package `03`
 
+/* funcargument와 충돌
 fun sum(a: Int, b: Int): Int{
     var sum = a + b
     return sum
-}
+ */
 
 fun main() {
     val result1 = sum(3,2)
