@@ -1,5 +1,6 @@
 package `03`
 
+/*
 fun main() {
     shortFunc(3) { println("First call: $it") }
 }
@@ -9,3 +10,4 @@ inline fun shortFunc(a: Int, noinline out: (Int) -> Unit) {
     out(a)
     println("After calling out()")
 }
+ */
