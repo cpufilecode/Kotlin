@@ -1,5 +1,6 @@
 package `03`
 
+/*
 fun main() {
     shortFunc(3) {
         println("First call: $it")
@@ -12,3 +13,4 @@ inline fun shortFunc(a: Int, out: (Int) -> Unit) {
     out(a)
     println("After calling out()") // ② 이 문장은 실행되지 않음
 }
+ */
